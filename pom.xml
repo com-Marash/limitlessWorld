@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.marash.general</groupId>
-  <artifactId>simpleWebService</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <groupId>com.marash</groupId>
+  <artifactId>limitlessWorld</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>simpleWebService</name>
+  <name>limitlessWorld</name>
   <url>http://maven.apache.org</url>
 	
 	<parent>
@@ -26,6 +26,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        
+        <dependency>
+        	<groupId>org.springframework</groupId>
+        	<artifactId>spring-jdbc</artifactId>
+		</dependency>
+        
     </dependencies>
 
     <build>
