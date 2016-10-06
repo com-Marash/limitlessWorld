@@ -1,6 +1,6 @@
 package com.marash.limitlessWorld.data.request;
 
-public class mapRequest implements java.io.Serializable{
+public class MapRequest implements java.io.Serializable{
 	private int fromX;
 	private int fromY;
 	private int toX;

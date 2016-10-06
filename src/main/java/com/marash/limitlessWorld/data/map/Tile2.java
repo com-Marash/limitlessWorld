@@ -1,6 +1,6 @@
 package com.marash.limitlessWorld.data.map;
 
-public class tile implements java.io.Serializable {
+public class Tile implements java.io.Serializable {
 	private String type;
 	private int x; 
 	private int y;
