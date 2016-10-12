@@ -18,6 +18,7 @@ public class mapController {
 	@Autowired
 	private MapService mapService;
 	
+	
 	@RequestMapping(value = "/getMap" , method = RequestMethod.POST, consumes=  MediaType.APPLICATION_JSON_VALUE )
     public MapResponse getMap(@RequestBody MapRequest mapRequest ) {
 		
