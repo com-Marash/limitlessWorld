@@ -1,12 +1,13 @@
 package com.marash.general.simpleWebService;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.marash.general.simpleWebService.data.authResponse;
 
-@RestController
+@Controller
 public class authController {
 
 
@@ -18,4 +19,9 @@ public class authController {
     	return AuthResponse;
     }
     
+    @RequestMapping("/login")
+    public String loginPage(ModelAndView  modelAndView ){
+    	return "login";
+    }
+
 }
